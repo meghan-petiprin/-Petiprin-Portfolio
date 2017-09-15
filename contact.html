@@ -2,31 +2,38 @@
 <head>
 <title>Contact</title>
 <link href="style.css" type="text/css" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
 </head>
 </head>
 <body><div id="main"
 <div id="main"> 
-<h1> Contact Meghan</h1>
+<h1> Contact Meghan Petiprin</h1>
+    <h4> Aspiring Web Developer | Travel Enthusiast | Random Fact Aficionado </h4>
+	  <nav> 
+   <ul> 
+      <li> <a href="index.html">Home</a></li>
+	  <li> <a href="about.html">About</a></li>
+      <li> <a href="contact.html">Contact</a></li>
+   </ul>
+ </nav>
 <hr>
+
 <p> Drop me a line! I love connecting with new people and am eager to learn from other web developers.  </p>
-<p> <a href="mailto:meghanm99@gmail.com">Email Meghan</a>
-<p> Phone #: (810) 417 -1XX8
-<p> Connect on LinkedIn: <a href="https://www.linkedin.com/in/meghan-petiprin-315a9a15"> Meghan's LinkedIn Profile</a> </p>
-<form action="http://www.example.com/subscribe.php">
-<p>Submit Your Contact Information:</p>
-<label>E-mail Address<br/>
-<input type="text" name="email"/></label><br/>
-<label>Phone Number<br/>
-<input type="text" name="mobile" /></label><br/>
-<input type="submit" name="submit" value="Submit"/>
+<p> <a href="mailto:meghanm99@gmail.com">Email Meghan</a> | Phone #: (810) 417 -1XX8 Connect on LinkedIn: <a href="https://www.linkedin.com/in/meghan-petiprin-315a9a15"> Meghan's LinkedIn Profile</a>
+
+<p><b>Share Your Contact Details:</b></p>
+<!--Note to Grand Circus deliverable reviewers: To view the Javascript function in action on the web, you can just submit the form with the 'First Name' field. No need to fill in the other contact info fields.-->
+<form id="contactinfo">  
+First name:<input name="name" type="text" size="15" placeholder="i.e: Ron">
+    <label for="lname">Last name:</label></li><input type="text" name="lname" size="15" placeholder="i.e: Swanson" />
+    <label for="Mnumber">Mobile number:<label><input type="text" name="Mnumber"  placeholder="i.e: (XXX)XXX-XXXX"/>
+    <label for="email">Email:</label><input type="text" name="email" size="15" placeholder="i.e: Ron.Swanson@mail.com" />
+    <label for="desc">Inquiry:</label><textarea name="inquiry" id="inquiry"></textarea></form>
+<button onclick="outputname()">Submit</button>
+<script src="script.js"></script>
 </form>
 
-<p> 
-<ul> 
-<li> <a href="index.html">Home</a></li>
-<li> <a href="about.html">About</a></li>
-</ul>
 </p>
 </div>
 </body> 
